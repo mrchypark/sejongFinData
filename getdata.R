@@ -1,3 +1,5 @@
+if (!require("rvest")) install.packages("rvest")
+if (!require("stringi")) install.packages("stringi")
 library(rvest)
 library(stringi)
 
