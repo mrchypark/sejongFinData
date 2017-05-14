@@ -3,7 +3,7 @@ if (!require("stringi")) install.packages("stringi")
 library(rvest)
 library(stringi)
 
-print("start get code. mrchypark")
+print("start get code. mrchypark  go")
 
 url <- "http://www.sejongdata.com/query/value.html"
 
