@@ -3,8 +3,8 @@ if (!require("stringi")) install.packages("stringi")
 library(rvest)
 library(stringi)
 
+print("start get code.")
 
-print("start get code. mrchypark  go")
 
 url <- "http://www.sejongdata.com/query/value.html"
 
@@ -43,5 +43,3 @@ for(i in 1:nrow(codeData)){
 
 write.csv(dataAll,"./dataAll.csv",row.names = F)
 save(dataAll,file="./dataAll.RData")
-
-rrr
