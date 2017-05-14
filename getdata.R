@@ -38,5 +38,7 @@ for(i in 1:nrow(codeData)){
   }
 }
 
+
+
 write.csv(dataAll,"./dataAll.csv",row.names = F)
 save(dataAll,file="./dataAll.RData")
