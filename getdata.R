@@ -1,5 +1,6 @@
 if (!require("rvest")) install.packages("rvest")
 if (!require("stringi")) install.packages("stringi")
+install.packages("selectr")
 library(rvest)
 library(stringi)
 
