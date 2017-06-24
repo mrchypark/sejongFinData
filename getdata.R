@@ -4,7 +4,7 @@ install.packages("selectr")
 library(rvest)
 library(stringi)
 
-print("start get code.")
+print("start get code.","new")
 
 
 url <- "http://www.sejongdata.com/query/value.html"
