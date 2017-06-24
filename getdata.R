@@ -5,7 +5,7 @@ print("packages install done")
 library(rvest)
 library(stringi)
 
-print("start get code.")
+print("start get code. wow!")
 
 
 url <- "http://www.sejongdata.com/query/value.html"
